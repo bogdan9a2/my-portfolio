@@ -1,8 +1,8 @@
 body {
- font-family: "Inter", sans-serif;
- font-optical-sizing: auto;
- font-weight: 400;
- font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar {
@@ -26,7 +26,7 @@ body {
     line-height: 150%;
 }
 
-.nav-link.active{
+.nav-link.active {
     font-weight: 700;
 
 }
@@ -34,7 +34,7 @@ body {
 .container {
     max-width: 870px;
     width: 100%;
-        margin: auto;
+    margin: auto;
 }
 
 .header {
@@ -54,7 +54,7 @@ body {
 }
 
 .header-heading {
-        font-weight: 700;
+    font-weight: 700;
     font-size: 24px;
     line-height: 123%;
     letter-spacing: -0.02em;
@@ -65,6 +65,7 @@ body {
 .header-primary {
     color: #bf7506;
 }
+
 .social-list {
     list-style-type: none;
     padding: 0;
@@ -98,4 +99,95 @@ body {
 
 .cv-icon {
     margin-right: 4px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #bf7506;
+}
+
+.card {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.card-text-wrapper {
+    padding: 16px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #bf7506;
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+}
+
+.tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+
+.tag {
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    text-decoration: none;
+    color: #211b12;
+    background: #FFFFFF;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+
+    line-height: 150%;
+    color: #211b12;
+    border-bottom: 2px solid #bf7506;
+    margin-right: 25px;
+
+}
+
+.card-button-icon {
+    margin-left: 4px;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
